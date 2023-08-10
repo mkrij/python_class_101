@@ -1,6 +1,6 @@
 def find_median(num_list:list[int]):
     """
-    Returns the median of a list of integers
+    Returns the median of a list of integers.
     """
     num_list.sort()
     if len(num_list) % 2 == 1:

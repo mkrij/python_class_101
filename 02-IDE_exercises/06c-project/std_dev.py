@@ -32,9 +32,4 @@ def std_dev(a_list:list[Person]) -> float:
     st_dv = variance ** 0.5
     return st_dv
 
-person1 = Person("Katie", 73)
-person2 = Person("Tran", 24)
-person3 = Person("Hanna", 48)
-person_list = [person1, person2, person3]
-print(std_dev(person_list))
 
