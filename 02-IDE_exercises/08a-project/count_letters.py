@@ -6,3 +6,5 @@ def count_letters(a_string: str) -> dict:
         elif i.upper() == i.lower():
             new_dict[i.upper()] +=1
     return new_dict
+
+print(count_letters('Oh my goodness!'))
