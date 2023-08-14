@@ -26,9 +26,3 @@ def make_employee_dict(names: list[str], IDs: list[str], salaries: list[int], em
         index +=1
     return new_dict
 
-emp_names = ["Tuan", "Rachel", "Brandon"]
-emp_ids = ["1000", "1001", "1002"]
-emp_sals = [30, 35, 28]
-emp_emails = ["Tuan@aol.com", "Rachel@aol.com", "Brandon@aol.com"]
-result = make_employee_dict(emp_names, emp_ids, emp_sals, emp_emails)
-print(result["1000"])
